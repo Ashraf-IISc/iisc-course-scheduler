@@ -1,36 +1,34 @@
 # ========================
-# Python & Virtual Envs
+# Python Core & Caches
 # ========================
-__pycache__/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
 *.py[cod]
 *$py.class
-.venv/
-venv/
-env/
-Lib/
-Scripts/
+*.egg-info/
+dist/
+build/
 
 # ========================
-# Streamlit Configuration
+# Environments & Secrets
 # ========================
+venv/
+.venv/
+env/
+.env
 .streamlit/secrets.toml
 
 # ========================
-# Data & Uploads 
+# Agent Skills (Copilot)
 # ========================
-# Ignores all Excel and CSV files to keep student schedules private
-*.xlsx
-*.xls
-
-# ========================
-# VS Code & IDE
-# ========================
-.vscode/
-*.swp
 .agents/
 
 # ========================
-# OS Generated Files
+# VS Code & OS Files
 # ========================
+.vscode/
+*.swp
 .DS_Store
 Thumbs.db
