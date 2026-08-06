@@ -1,0 +1,36 @@
+# ========================
+# Python & Virtual Envs
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+Lib/
+Scripts/
+
+# ========================
+# Streamlit Configuration
+# ========================
+.streamlit/secrets.toml
+
+# ========================
+# Data & Uploads 
+# ========================
+# Ignores all Excel and CSV files to keep student schedules private
+*.xlsx
+*.xls
+
+# ========================
+# VS Code & IDE
+# ========================
+.vscode/
+*.swp
+.agents/
+
+# ========================
+# OS Generated Files
+# ========================
+.DS_Store
+Thumbs.db
